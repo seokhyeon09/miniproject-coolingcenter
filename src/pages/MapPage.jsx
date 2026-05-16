@@ -60,7 +60,7 @@ const MapPage = () => {
             {/* 리스트 필터 영역 */}
             <aside className='border rounded-2xl bg-white shadow-sm'>
                 <div className='border-b px-4 py-3'>
-                    <h2 className='text-base font-semibold'>WIFI Spots</h2>
+                    <h2 className='text-base font-semibold'>무더위 쉼터 위치</h2>
                     <p className='mt-1 text-xs text-slate-500'>데이터 : {coolingcenter.length}건 / 표시 : {filtered.length}건</p>
                 </div>
                 <div className='flex gap-2 border-b px-4 py-3'>
